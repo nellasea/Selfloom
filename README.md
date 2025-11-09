@@ -1,4 +1,4 @@
-# 🎈 Blank app template
+# 🎈 Selfloom
 
 A simple Streamlit app template for you to modify!
 
