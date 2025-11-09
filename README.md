@@ -1,19 +1,41 @@
-# 🎈 Selfloom
+📝 Selfloom - Journaling & AI Assistant
+A smart journaling application with AI assistant for mental health and personal growth.
 
-A simple Streamlit app template for you to modify!
+✨ Key Features
+📓 Smart Journaling: Write journals with automatic mood analysis
 
-[![Open in Streamlit](https://static.streamlit.io/badges/streamlit_badge_black_white.svg)](https://blank-app-template.streamlit.app/)
+🤖 AI Assistant: Chat with an empathetic AI for mental support
 
-### How to run it on your own machine
+📊 Mood Tracking: Track emotional patterns with color visualization
 
-1. Install the requirements
+🗄️ Private Storage: Data securely stored in local database
 
-   ```
-   $ pip install -r requirements.txt
-   ```
+🚀 Quick Start
+1. Install Dependencies
+bash
+pip install streamlit google-generativeai sqlalchemy pymysql python-dotenv
+2. Setup Environment
+Create .env file:
 
-2. Run the app
+env
+GOOGLE_API_KEY=your_gemini_api_key_here
+3. Run App
+bash
+streamlit run selfloom_app.py
+🎯 How to Use
+Journaling Tab: Write daily journals, mood will be automatically analyzed
 
-   ```
-   $ streamlit run streamlit_app.py
-   ```
+AI Assistant Tab: Chat with AI for counseling & emotional support
+
+History Tab: View journal history and delete if needed
+
+🔧 Configuration
+Get Gemini API key from Google AI Studio
+
+Database will be automatically created (SQLite) if MySQL is not available.
+
+⚠️ Disclaimer
+Selfloom is an AI assistant, not a replacement for mental health professionals. For serious conditions, contact qualified experts.
+
+Made with ❤️ for better mental health
+
